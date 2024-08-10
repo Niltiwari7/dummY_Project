@@ -27,7 +27,7 @@ export default function Header() {
         <Link to='/'>
           <h1 className="title font-bold text-sm sm:text-xl flex flex-wrap">
             <span className="text-white sm:text-4xl">MahaKal</span>
-            <span className="text-gray-500 sm:text-xl">Construction</span>
+            <span className="text-blue-700 sm:text-xl">Construction</span>
           </h1>
         </Link>
         <div className="flex flex-1 justify-end items-center sm:ml-4 sm:mx-6">
@@ -45,13 +45,13 @@ export default function Header() {
               </button>
             </Link>
             <Link to='/about' className="nav-item">
-              <button className="hover:bg-sky-700 text-white px-3 py-2 sm:text-xl rounded">
+              <button className="hover:bg-sky-700 text-white px-3 py-2 sm:text-xl rounded ">
                 About
               </button>
             </Link>
           </ul>
           <Link to='/sign-in'>
-          <button className="nav-item hover:bg-sky-700 text-white px-3 py-2 sm:text-xl rounded ml-4  ">
+          <button className="nav-item hover:bg-sky-700 text-white px-3 py-2 sm:text-xl rounded ml-4  whitespace-nowrap">
             Sign In
           </button>
           </Link>
