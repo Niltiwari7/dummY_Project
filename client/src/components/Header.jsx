@@ -27,7 +27,7 @@ export default function Header() {
         <Link to='/'>
           <h1 className="title font-bold text-sm sm:text-xl flex flex-wrap">
             <span className="text-white sm:text-4xl">Code</span>
-            <span className="text-blue-800 sm:text-xl">Snipper</span>
+            <span className="text-violet-800 sm:text-xl">Snipper</span>
           </h1>
         </Link>
         <div className="flex flex-1 justify-end items-center sm:ml-4 sm:mx-6">
