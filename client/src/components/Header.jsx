@@ -22,12 +22,12 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="header bg-sky-500 shadow-md">
+    <header className="header bg-black shadow-md">
       <div className="flex justify-between items-center max-w-6xl mx-auto p-2 sm:p-3">
         <Link to='/'>
           <h1 className="title font-bold text-sm sm:text-xl flex flex-wrap">
-            <span className="text-white sm:text-4xl">MahaKal</span>
-            <span className="text-blue-700 sm:text-xl">Construction</span>
+            <span className="text-white sm:text-4xl">Code</span>
+            <span className="text-blue-800 sm:text-xl">Snipper</span>
           </h1>
         </Link>
         <div className="flex flex-1 justify-end items-center sm:ml-4 sm:mx-6">
